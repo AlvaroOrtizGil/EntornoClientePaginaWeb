@@ -9,29 +9,13 @@
 <html>
 <head>
     <%@ include file="header.jsp" %>
+        
     <title>Página de Contactos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-        .container {
-            background-color: #fff;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-        }
-    </style>
+    
 </head>
 <body>
+        <%@ include file="body.jsp" %>
     <div class="container">
         <h2>Contáctanos</h2>
         <form>
@@ -54,4 +38,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<%@ include file="footer.jsp" %>
 </html>

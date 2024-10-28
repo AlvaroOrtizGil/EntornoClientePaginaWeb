@@ -14,11 +14,14 @@
     </head>
     <body>
        
-<h1>Mi página Web</h1>
+
        <%@ include file="header.jsp" %>
+         <%@ include file="body.jsp" %>
+       
 <p><%=SobreNosotros.obtenerDescripcion() %></p>
-<%@ include file="footer.jsp" %>
+
       
        
     </body>
+    <%@ include file="footer.jsp" %>
 </html>
