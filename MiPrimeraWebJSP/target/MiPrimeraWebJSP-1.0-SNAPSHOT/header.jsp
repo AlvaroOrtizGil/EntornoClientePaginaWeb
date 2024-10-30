@@ -19,15 +19,15 @@
     }
     .navbar a {
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       font-weight: bold;
       transition: color 0.3s;
     }
     .navbar a:hover {
       color: #829A41; /* Verde claro */
     }
-    .navbar-nav .nav-item { /* La separacion entre botones de  */
-      margin: 0 15px;   
+    .navbar-nav .nav-item {
+      margin: 0 15px;
     }
     .navbar-brand {
       font-size: 1.5rem;

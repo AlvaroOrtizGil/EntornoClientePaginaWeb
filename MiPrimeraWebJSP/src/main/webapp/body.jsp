@@ -8,9 +8,10 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #d4e2d4, #a0c8d4); /* Degradado verde suave */
+            background-color: #d4e2d4; /* Verde suave */
             color: #3b6d40; /* Verde oscuro para texto */
             padding: 20px;
+            text-align: center;
         }
         h1 {
             color: #3b6d40; /* Verde bosque */
@@ -18,5 +19,9 @@
         }
     </style>
 </head>
-
+<body class="container">
+    <div class="row justify-content-center">
+       
+    </div>
+</body>
 </html>
