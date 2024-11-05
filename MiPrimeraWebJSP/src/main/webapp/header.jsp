@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="Clasess.header" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,15 +20,15 @@
     }
     .navbar a {
       color: #fff;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
       font-weight: bold;
       transition: color 0.3s;
     }
     .navbar a:hover {
       color: #829A41; /* Verde claro */
     }
-    .navbar-nav .nav-item {
-      margin: 0 15px;
+    .navbar-nav .nav-item { /* La separacion entre botones de  */
+      margin: 0 15px;   
     }
     .navbar-brand {
       font-size: 1.5rem;
@@ -37,7 +38,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.jsp"><i class="fa fa-tree"></i> Tierra Alta</a>
+      <a class="navbar-brand" href="index.jsp"><i class="fa fa-tree"></i>Tierra Alta</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
