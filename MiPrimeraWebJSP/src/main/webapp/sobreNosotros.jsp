@@ -7,10 +7,19 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
   
-    </head>
+  
+     
+    <style>
+        .acerca-texto{
+             font-size: 2em;
+        }
+    </style>
+      </head>
     <body>
+        
         <%@ include file="header.jsp" %>
         <%@ include file="body.jsp" %>
+        
         <h1>Acerca de Nosotros</h1>
        
         <div class= "Maps">
@@ -19,5 +28,7 @@
         <p> 
         <p class="acerca-texto"><%=AcercaDe.info()%></p>
     </body>
+   
     <%@ include file="footer.jsp" %>
 </html>
+

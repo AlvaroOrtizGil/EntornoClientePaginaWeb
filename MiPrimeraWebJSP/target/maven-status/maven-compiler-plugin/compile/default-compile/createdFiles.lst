@@ -1,9 +1,12 @@
 com\mycompany\miprimerawebjsp\resources\JakartaEE11Resource.class
 Clasess\AcercaDe.class
 Clasess\footer.class
+com\mycompany\miprimerawebjsp\JakartaRestConfiguration.class
+Clasess\detallesProducto3.class
+Clasess\detallesProducto2.class
 Clasess\header.class
 Clasess\SobreNosotros.class
-com\mycompany\miprimerawebjsp\JakartaRestConfiguration.class
+Clasess\detallesProducto1.class
 Server.class
 Clasess\Inicio.class
 HolaMundoo.class
