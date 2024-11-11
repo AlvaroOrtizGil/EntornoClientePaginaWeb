@@ -1,8 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%@page import="Clasess.footer"%>
-<html>
-<head>
     <style>
         /* Configura el contenedor para que llene toda la ventana */
         html, body {
@@ -29,8 +27,7 @@
             width: 100%;
         }
     </style>
-</head>
-<body>
+
     <!-- Contenido de la página -->
     
     <footer>
